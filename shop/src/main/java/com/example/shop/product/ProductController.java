@@ -1,10 +1,13 @@
 package com.example.shop.product;
 
+import com.example.shop.product.dto.ProductCreateRequest;
+import com.example.shop.product.dto.ProductUpdateRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
+import java.util.List;
 
 // 상품 이름, 상품 Id,
 @RestController
@@ -48,4 +51,4 @@ public class ProductController {
 
 }
 
-}
+
